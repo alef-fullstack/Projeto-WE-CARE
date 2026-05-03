@@ -71,7 +71,7 @@ p {
   font-size: 24px;
   line-height: 29px;
   color: #848484;
-  width: 515px;
+  width: 600px;
   margin-top: 32px;
   margin-bottom: 65px;
   text-align: justify;
@@ -100,7 +100,7 @@ p {
 }
 
 .div-footer {
-  margin: 40px 0 0 90px;
+  margin: 15px 0 0 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
