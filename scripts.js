@@ -1,7 +1,7 @@
 
 
 
-document.getElementById('login').addEventListener('submit', function(e) {
+const elements = document.getElementById('login').addEventListener('submit', function(e) {
         e.preventDefault(); // Previne o comportamento padrão
 
         const email = document.getElementById('email').value;
