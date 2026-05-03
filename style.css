@@ -115,14 +115,16 @@ p {
 
 @media screen and (max-width: 900px) {
 
-  header {
+
+  header :not(.button-header){
     display: none;
   }
+
 
   .logo-image {
     width: 354px;
     height: 317px;
-    margin: 100px 20px 10px 20px;
+    margin: 0px 20px 10px 20px;
 
   }
 
