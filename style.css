@@ -5,10 +5,11 @@
   box-sizing: border-box;
 }
 
-header{
+header {
   margin: 44px 0 144px 76px
 }
-.link-header{
+
+.link-header {
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
@@ -17,21 +18,28 @@ header{
   margin-right: 23px;
 }
 
-.button-header{
-  background: #665ae1;
-  border-radius: 20.5px;
-  width: 130px;
-  height: 41px;
-  border: none;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
-  cursor: pointer;
-
+.button-header {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: black;
+    padding: 12px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 23px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.button-header:hover {
+  background: #ADFF00;
 
 }
 
-.logo-image{
+.button-header:active {
+  background: #8bc70a;
+}
+
+.logo-image {
   width: 568px;
   height: 450px;
   margin-left: 125px;
@@ -39,25 +47,26 @@ header{
 
 }
 
-section{ 
+section {
   display: inline-block;
   margin-left: 86px;
 }
 
-h1{
+h1 {
   font-weight: 900;
   font-size: 100px;
   line-height: 122px;
   color: #515151
 }
 
-h2{  font-weight: 500;
+h2 {
+  font-weight: 500;
   font-size: 58px;
   line-height: 71px;
   color: #515151
 }
 
-p{
+p {
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
@@ -67,36 +76,57 @@ p{
   margin-bottom: 65px;
 }
 
-.button-foot{
+.button-foot {
   background: #ADFF00;
   border-radius: 30px;
   width: 239px;
   height: 64px;
   border: none;
   cursor: pointer;
-  filter: drop-shadow(0px 4px 4px 
-  rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   font-weight: 700;
   font-size: 28px;
   line-height: 34px;
   color: #000000
+}
+
+.button-foot:active {
+  background: #2c2485;
+}
+
+.button-foot:hover {
+  background: #665ae1;
+}
+
+.div-footer {
+  margin: 40px 0 0 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+}
+
+.div-footer-p{
+  margin: 0;
+  width: 600px;
 
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
 
-  header{
+  header {
     display: none;
   }
 
-  .logo-image{
+  .logo-image {
     width: 354px;
     height: 317px;
     margin: 100px 20px 10px 20px;
-    
+
   }
 
-  h1{
+  h1 {
     width: 263px;
     height: 52px;
     font-size: 50px;
@@ -106,7 +136,7 @@ p{
 
   }
 
-  h2{
+  h2 {
     font-size: 25px;
     text-align: center;
     width: 232px;
@@ -114,12 +144,7 @@ p{
     margin-bottom: 25px;
   }
 
-  p{
+  p {
     display: none;
   }
 }
-
-
-
-
-
